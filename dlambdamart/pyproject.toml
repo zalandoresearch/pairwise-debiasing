@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "dlambdamart"
+version = "0.1.0"
+description = "Pairwise debiasing methods for learning-to-rank"
+authors = ["Zalando Ireland Ltd. <team-express@zalando.ie>"]
+
+[tool.poetry.dependencies]
+python = "3.8"
+cython = "^0.29.30"
+numpy = "^1.22"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

@@ -1,0 +1,13 @@
+click-models: ["position-based", "no-skipping"]  # click models to use for data generation
+
+max-positions: [10, 15, 20]  # the truncation position values
+# The truncation position is the maximum number of items that can be displayed/viewed.
+
+position-bias-power: 1.0  # this parameter controls the rate of examination probability decay
+# The examination probabilities are generated as (1/position)^{position-bias-power}.
+
+experiment-prefix: "experiment_220123"
+# A prefix used to name the output folder
+
+dataset-location: "ranked_yahoo_c14_dataset"
+output-location: "output"
